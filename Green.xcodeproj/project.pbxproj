@@ -15,6 +15,7 @@
 		CC6A71CE244309F400A04A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A71CC244309F400A04A70 /* LaunchScreen.storyboard */; };
 		CC6A71D9244309F400A04A70 /* GreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A71D8244309F400A04A70 /* GreenTests.swift */; };
 		CC6A71E4244309F400A04A70 /* GreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A71E3244309F400A04A70 /* GreenUITests.swift */; };
+		CC6A71F324430D4800A04A70 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6A71F224430D4800A04A70 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC6A71DF244309F400A04A70 /* GreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6A71E3244309F400A04A70 /* GreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenUITests.swift; sourceTree = "<group>"; };
 		CC6A71E5244309F400A04A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6A71F224430D4800A04A70 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6A71F324430D4800A04A70 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				CC6A71D7244309F400A04A70 /* GreenTests */,
 				CC6A71E2244309F400A04A70 /* GreenUITests */,
 				CC6A71BF244309F200A04A70 /* Products */,
+				CC6A71F124430D4800A04A70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				CC6A71E5244309F400A04A70 /* Info.plist */,
 			);
 			path = GreenUITests;
+			sourceTree = "<group>";
+		};
+		CC6A71F124430D4800A04A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A71F224430D4800A04A70 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
